@@ -23,5 +23,6 @@ export default function RootLayout() {
   if (!fontsLoaded) {
     return null;
   }
+  // headershown:false will hide the heading at the top
   return <Stack screenOptions={{ headerShown: false }} />;
 }
